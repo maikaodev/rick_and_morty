@@ -1,31 +1,28 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ESNext",
     "allowJs": true,
     "useDefineForClassFields": true,
     "module": "ESNext",
     "moduleResolution": "Node",
-    "strict": true,
-    "jsx": "preserve",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
     "lib": [
-      "es5",
-      "dom"
+      "ESNext",
+      "DOM"
     ],
     "skipLibCheck": true,
     "noEmit": true
   },
-  "types": [
-    "node",
-  ],
   "include": [
-    "**/*.ts",
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue"
+    "src/**/*.vue",
+    "src/plugins/router.js",
+    "src/plugins/router.js",
+    "src/plugins/router.js"
   ],
   "references": [
     {
