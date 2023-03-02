@@ -1,6 +1,7 @@
 // FILE: main.js
 
 import { createApp } from "vue";
+import router from "./plugins/router.js";
 import { Quasar } from "quasar";
 import quasarIconSet from "quasar/icon-set/fontawesome-v6";
 
@@ -14,6 +15,7 @@ import App from "./App.vue";
 
 const myApp = createApp(App);
 
+myApp.use(router);
 myApp.use(Quasar, {
   plugins: {},
   iconSet: quasarIconSet,
