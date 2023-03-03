@@ -20,3 +20,5 @@ https://www.linkedin.com/in/maikaodev/
 - [ ] Filtrar personagens pelo nome;
 - [ ] Criar página de detalhes do personagem;
 - [ ] Detalhes -> Todos os detalhes dos personagens e epísódios em que ele aparece;
+- [ ] Adicionar testes unitários
+- [ ] Adicionar testes e2e
